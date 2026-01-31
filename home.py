@@ -10,7 +10,9 @@ def show():
         unsafe_allow_html=True
     )
     st.markdown(
-        "<p style='text-align:center; font-size:18px; color:#7f8c8d;'>Empowering bone health decisions for prosthetic users and the elderly</p>",
+        "<p style='text-align:center; font-size:18px; color:#7f8c8d;'>"
+        "Empowering bone health decisions for prosthetic users and the elderly"
+        "</p>",
         unsafe_allow_html=True
     )
 
@@ -32,25 +34,35 @@ def show():
     with st.container():
         st.markdown("### 📜 Copyright Notice")
         st.markdown("""
-        **© 2025 Adiefe Mabel Judith, Jinadu Mahmud Babatunde & Prof. Ekezie Jervas — All rights reserved.**
+**© 2025 Adiefe Mabel Judith & Jinadu Mahmud Babatunde — Academic research content**  
+**© 2025 Olekanma Chinonso Victoria — Software, AI models, and application implementation**
 
-        This project was developed by **Adiefe Mabel J.** and **Jinadu Mahmud Babatunde**, 
-        students of the department of **PROSTHETICS & ORTHOTICS** at the **Federal University 
-        of Technology Owerri (FUTO)** under the supervision of **Prof. Ekezie Jervas** in total 
-        fulfilment of the requirement for the award of Bachelor of Health Technology (B.TECH).
-        """)
+This project was carried out as part of undergraduate research by **Adiefe Mabel Judith** and 
+**Jinadu Mahmud Babatunde**, students of the Department of **Prosthetics & Orthotics** at the 
+**Federal University of Technology Owerri (FUTO)**, under the academic supervision of 
+**Prof. Ekezie Jervas**, in partial fulfilment of the requirements for the award of 
+**Bachelor of Health Technology (B.Tech)**.
+""")
 
     st.divider()
 
-    # Beautiful About Section (No HTML, all clean text)
+    # About Section
     with st.container():
         st.markdown("### 🧠 About This App")
-        st.markdown("This predictive health tool is designed to assist with:")
+        st.markdown("""
+This application is a **proof-of-concept (POC)** predictive health tool designed to explore 
+AI-assisted risk assessment in lower-limb prosthetic users and elderly populations.
 
-        st.markdown("- **Fragility Fracture Risk Assessment / Prediction** in lower-limb prosthetic user — *by Adiefe Mabel Judith*")
-        st.markdown("- **Osteoarthritis risk Prediction** in lower-limb prosthetic users — *by Jinadu Mahmud Babatunde*")
+It includes:
+- **Fragility Fracture Risk Assessment / Prediction** in lower-limb prosthetic users — *Adiefe Mabel Judith*  
+- **Osteoarthritis Risk Prediction** in lower-limb prosthetic users — *Jinadu Mahmud Babatunde*
 
-        st.markdown("Click the button below to begin your personalized assessment.")
+**Technical Development & System Implementation:**  
+The AI pipelines, data preprocessing workflows, and Streamlit application architecture were 
+**designed and implemented by Olekanma Chinonso Victoria** in collaboration with the student researchers.
+
+Click the button below to begin your personalized assessment.
+""")
 
     st.write("")
     if st.button("🚀 Continue to Prediction", use_container_width=True):
