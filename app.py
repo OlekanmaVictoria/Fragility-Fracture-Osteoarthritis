@@ -1,6 +1,11 @@
+
 import streamlit as st
+import importlib
 import home
 import prediction
+
+importlib.reload(home)
+
 
 # Page configuration
 st.set_page_config(
@@ -38,7 +43,7 @@ st.markdown("---")
 st.markdown(
     "<p style='text-align: center; font-size: 14px;'>"
     "© 2025 Adiefe Mabel Judith & Jinadu Mahmud Babatunde — Academic research content<br>"
-    "© 2026 Olekanma Chinonso Victoria — Software, AI models, and application implementation"
+    "© 2025 Olekanma Chinonso Victoria — Software, AI models, and application implementation"
     "</p>",
     unsafe_allow_html=True
 )

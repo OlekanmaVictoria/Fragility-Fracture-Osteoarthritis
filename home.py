@@ -35,7 +35,7 @@ def show():
         st.markdown("### 📜 Copyright Notice")
         st.markdown("""
 **© 2025 Adiefe Mabel Judith & Jinadu Mahmud Babatunde — Academic research content**  
-**© 2026 Olekanma Chinonso Victoria — Software, AI models, and application implementation**
+**© 2025 Olekanma Chinonso Victoria — Software, AI models, and application implementation**
 
 This project was carried out as part of undergraduate research by **Adiefe Mabel Judith** and 
 **Jinadu Mahmud Babatunde**, students of the Department of **Prosthetics & Orthotics** at the 
